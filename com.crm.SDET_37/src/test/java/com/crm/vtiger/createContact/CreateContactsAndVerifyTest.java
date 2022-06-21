@@ -25,7 +25,7 @@ public class CreateContactsAndVerifyTest extends BaseClass {
 		String LastName=eLib.getDataFromExcelSheet(IPathConstant.excelPath,"ContactSheet", 1, 3);
 		String Title=eLib.getDataFromExcelSheet(IPathConstant.excelPath,"ContactSheet", 1, 5);
 				
-		//Generate Random Number
+		
 		int RandNum=jLib.getRandomNumber(100);
 		
 		//Generate Random Name
